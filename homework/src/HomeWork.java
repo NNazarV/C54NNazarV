@@ -4,10 +4,17 @@ public class HomeWork {
         for (i = 1; i <= 100; i++) {
             System.out.print(i + ", ");
         }
-        System.out.println("\nЧисла кратные 2-ум");
+        System.out.println("\nЧисла кратные 2");
         for (i = 1; i<=100; i++) {
             if (i % 2 == 0)
                 System.out.print(i + ", ");
+        }
+        System.out.println("\nЧисла кратные 4");
+        i = 1;
+        while (i<=100){
+            if (i % 4 == 0)
+            System.out.print(i + ", ");
+            i++;
         }
 
     }

@@ -10,26 +10,26 @@ public class Main {
             System.out.println("1) + \n2) - \n3) *\n4) /");
             int Action = in.nextInt();
             if (Action > 4){
-                System.out.println("Такого действия нет!");
+                System.out.println("Такого действия нет! \n");
                 continue;
             }
             System.out.println("Введите второе число: ");
             int SecondNumber = in.nextInt();
             if (Action == 1) {
                 System.out.print(FirstNumber + "+" + SecondNumber + "=");
-                System.out.println(FirstNumber + SecondNumber);
+                System.out.println(FirstNumber + SecondNumber + "\n");
             }
             else if (Action == 2) {
                 System.out.print(FirstNumber + "-" + SecondNumber + "=");
-                System.out.println(FirstNumber - SecondNumber);
+                System.out.println(FirstNumber - SecondNumber + "\n");
             }
             else if (Action == 3) {
                 System.out.print(FirstNumber + "*" + SecondNumber + "=");
-                System.out.println(FirstNumber * SecondNumber);
+                System.out.println(FirstNumber * SecondNumber + "\n");
             }
             else if (Action == 4) {
                 System.out.print(FirstNumber + "/" + SecondNumber + "=");
-                System.out.println(FirstNumber / SecondNumber);
+                System.out.println(FirstNumber / SecondNumber + "\n");
             }
 
 
